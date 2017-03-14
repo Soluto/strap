@@ -284,5 +284,12 @@ if [ -f "$HOME/.Brewfile" ]; then
   logk
 fi
 
+# Install Android SDK
+if [ -f "$HOME/.androidsdk" ]; then
+  log "Installing from user android sdk on GitHub:"
+  bash $HOME/.androidsdk
+  logk
+fi
+
 STRAP_SUCCESS="1"
 log "Your system is now Strap'd!"
