@@ -2,11 +2,6 @@
 Strap is a script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.
 
 ## Features
-- Disables Java in Safari (for better security)
-- Enables the macOS screensaver password immediately (for better security)
-- Enables the macOS application firewall (for better security)
-- Adds a `Found this computer?` message to the login screen (for machine recovery)
-- Enables full-disk encryption and saves the FileVault Recovery Key to the Desktop (for better security)
 - Installs the Xcode Command Line Tools (for compilers and Unix tools)
 - Agree to the Xcode license (for using compilers without prompts)
 - Installs [Homebrew](http://brew.sh) (for installing command-line software)
@@ -21,18 +16,18 @@ Strap is a script to bootstrap a minimal macOS development system. This does not
 - Mostly idempotent (the slow bit is rerunning `brew update`)
 
 ## Usage
-Open https://osx-strap.herokuapp.com in your web browser.
+Open https://soluto-strap.herokuapp.com in your web browser.
 
 Alternatively, to run Strap locally run:
 ```bash
-git clone https://github.com/mikemcquaid/strap
+git clone https://github.com/soluto/strap
 cd strap
 bash bin/strap.sh # or bash bin/strap.sh --debug for more debugging output
 ```
 
 Alternatively, to run the web application locally run:
 ```bash
-git clone https://github.com/mikemcquaid/strap
+git clone https://github.com/soluto/strap
 cd strap
 GITHUB_KEY="..." GITHUB_SECRET="..." ./script/server
 ```
