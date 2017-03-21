@@ -39,7 +39,16 @@ get "/" do
   @title = "Strap"
   @text = <<-EOS
 Strap is a script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.
-
+</br>
+What this script does:
+<ol>
+   <li>Install XCode cli tools, Homebrew and some basic dependencies</li>
+   <li>Check and install software updated</li>
+   <li>Clone a dotfiles repository from your Github profile to your home directory. You can start by forking an <a href="https://github.com/oryagel/dotfiles">existing repository</a></li>
+   <li>Install the brews from your customized Brewfile which should be in your dotfiles repository</li>
+   <li>Install Android SDK and dependencies from your customized androidsdk file which should be in your dotfiles repository</li>
+</ol>
+</br>
 To Strap your system:
 <ol>
   #{before_install_list_item}
@@ -49,6 +58,8 @@ To Strap your system:
   <li>Delete the customised <code>strap.sh</code></a> (it has a GitHub token in it) in Terminal.app with <code>rm -f ~/Downloads/strap.sh</code></a></li>
   <li>Install additional software with <code>brew install</code> and <code>brew cask install</code>.</li>
 </ol>
+
+
 
 <a href="https://github.com/mikemcquaid/strap"><img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px;" src="//aral.github.com/fork-me-on-github-retina-ribbons/right-graphite@2x.png" alt="Fork me on GitHub"></a>
 EOS
