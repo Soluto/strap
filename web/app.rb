@@ -49,8 +49,8 @@ Dependencies:
 What this script does:
 <ol>
    <li>Install XCode cli tools, Homebrew and some basic dependencies</li>
-   <li>Check and install software updated</li>
-   <li>Clone a dotfiles repository from your Github profile to your home directory. You can start by forking an <a href="https://github.com/oryagel/dotfiles">existing repository</a></li>
+   <li>Check and install software updates</li>
+   <li>Clone the dotfiles repository from your Github profile to your home directory. You can start by forking an <a href="https://github.com/oryagel/dotfiles">existing repository</a> to your Github account</li>
    <li>Install the brews from your customized Brewfile which should be in your dotfiles repository</li>
    <li>Install Android SDK and dependencies from your customized androidsdk file which should be in your dotfiles repository</li>
 </ol>
