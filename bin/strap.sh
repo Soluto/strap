@@ -280,7 +280,7 @@ fi
 # Install from local Brewfile
 if [ -f "$HOME/.Brewfile" ]; then
   log "Installing from user Brewfile on GitHub:"
-  brew bundle --global
+  brew bundle --global || true
   logk
 fi
 
