@@ -40,11 +40,11 @@ get "/" do
   @text = <<-EOS
 Strap is a script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.
 </br></br>
-<h3>Before you run the strap.sh script:<h3/>
+<h3>Before you run the strap.sh script:</h3>
 <ol>
-	<li>Login to your Github account.</li>
+	<li>Make sure you have a Github account.</li>
   <li>If you don't already have a dotfiles repository, fork your own from this <a href="https://github.com/oryagel/dotfiles">existing repository.</a> You can use the dotfiles to customize the apps that strap script will install.</li>
-	<li>Create an Apple account (Apple Id) for the Mac App store.</li>
+	<li>Make sure you have an Apple account (Apple Id) for the Mac App store.</li>
 </ol>
 </br>
 What this script does:
