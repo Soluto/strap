@@ -287,7 +287,7 @@ fi
 # Install Android SDK
 if [ -f "$HOME/.android_packages" ]; then
   log "Installing from user android sdk on GitHub:"
-  bash sdkmanager --packages_file=$HOME/.android_packages
+  sdkmanager --package_file=$HOME/.android_packages
   logk
 fi
 
