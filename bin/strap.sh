@@ -285,9 +285,9 @@ if [ -f "$HOME/.Brewfile" ]; then
 fi
 
 # Install Android SDK
-if [ -f "$HOME/.androidsdk" ]; then
+if [ -f "$HOME/.android_packages" ]; then
   log "Installing from user android sdk on GitHub:"
-  bash $HOME/.androidsdk
+  bash sdkmanager --packages_file=$HOME/.android_packages
   logk
 fi
 
