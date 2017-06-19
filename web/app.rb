@@ -63,7 +63,6 @@ Strap is a script to bootstrap a minimal macOS development system. This does not
   <li>Run Strap in Terminal.app with <code>bash ~/Downloads/strap.sh</code>.</li>
   <li>If something failed, run Strap with more debugging output in Terminal.app with <code>bash ~/Downloads/strap.sh --debug</code> and file an issue at <a href="#{STRAP_ISSUES_URL}">#{STRAP_ISSUES_URL}</a></li>
   <li>Delete the customised <code>strap.sh</code></a> (it has a GitHub token in it) in Terminal.app with <code>rm -f ~/Downloads/strap.sh</code></a></li>
-  <li>Install additional software with <code>brew install</code> and <code>brew cask install</code>.</li>
 </ol>
 
 
