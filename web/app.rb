@@ -38,7 +38,8 @@ get "/" do
 
   @title = "Strap"
   @text = <<-EOS
-Strap is a script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.
+Strap is a script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.</br>
+Strap uses dotfiles to configure the system, you can read more about dotfiles <a href="https://askubuntu.com/questions/94780/what-are-dot-files">here</a>
 </br></br>
 <h3>Before you run the strap.sh script:</h3>
 <ol>
