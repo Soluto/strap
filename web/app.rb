@@ -47,7 +47,7 @@ Strap is a script to bootstrap a minimal macOS development system. This does not
 	<li>Make sure you have an Apple account (Apple Id) for the Mac App store.</li>
 </ol>
 </br>
-What this script does:
+<h3>What this script does:</h3>
 <ol>
    <li>Install XCode cli tools, Homebrew and some basic dependencies</li>
    <li>Check and install software updates</li>
@@ -56,10 +56,10 @@ What this script does:
    <li>Install Android SDK and dependencies from your customized androidsdk file which should be in your dotfiles repository</li>
 </ol>
 </br>
-To Strap your system:
+<h3>To Strap your system:</h3>
 <ol>
   #{before_install_list_item}
-  <li><a href="/strap.sh">Download the <code>strap.sh</code></a> that's been customised for your GitHub user (or <a href="/strap.sh?text=1">view it</a> first). This will prompt for access to your email, public and private repositories; you'll need to provide access to any organizations whose repositories you need to be able to <code>git clone</code>. This is used to add a GitHub access token to the <code>strap.sh</code> script and is not otherwise used by this web application or stored anywhere.</li>
+  <li><a href="/strap.sh">Download the <code>strap.sh</code></a> that's been customised for your GitHub user (or <a href="/strap.sh?text=1">view it</a> first). This will prompt for access to your email, public and private repositories.</li>
   <li>Run Strap in Terminal.app with <code>bash ~/Downloads/strap.sh</code>.</li>
   <li>If something failed, run Strap with more debugging output in Terminal.app with <code>bash ~/Downloads/strap.sh --debug</code> and file an issue at <a href="#{STRAP_ISSUES_URL}">#{STRAP_ISSUES_URL}</a></li>
   <li>Delete the customised <code>strap.sh</code></a> (it has a GitHub token in it) in Terminal.app with <code>rm -f ~/Downloads/strap.sh</code></a></li>
